@@ -1,0 +1,13 @@
+﻿CREATE DATABASE IF NOT EXISTS TestingUsqlDb;
+
+CREATE FUNCTION TestingUsqlDb.dbo.GetFromFile(@inputPath string)
+RETURNS @rows 
+AS BEGIN
+  @rows =     
+    EXTRACT FirstColumn long,
+            SecondColumn string
+    FROM @inputPath
+    USING Extractors.Tsv(silent: false, quoting : false, skipFirstNRows:1);
+
+    RETURN;
+END;

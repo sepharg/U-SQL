@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USQL.LocalRunner", "USQL.LocalRunner\USQL.LocalRunner.csproj", "{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USQL.LocalRunner.Tests", "USQL.LocalRunner.Tests\USQL.LocalRunner.Tests.csproj", "{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ci|Any CPU = ci|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		NugetPack|Any CPU = NugetPack|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.ci|Any CPU.ActiveCfg = ci|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.ci|Any CPU.Build.0 = ci|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.NugetPack|Any CPU.ActiveCfg = NugetPack|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.NugetPack|Any CPU.Build.0 = NugetPack|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ACF080-A1F0-4E40-9CDE-CE32B619FC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.ci|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.ci|Any CPU.Build.0 = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.NugetPack|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.NugetPack|Any CPU.Build.0 = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBA4C3-8987-4BD8-9DC4-E99086FC6AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0A02191-5B0D-431D-9545-88342CB88B99}
+	EndGlobalSection
+EndGlobal

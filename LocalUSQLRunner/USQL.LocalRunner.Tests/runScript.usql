@@ -1,0 +1,11 @@
+﻿// Just read the input file and copy the contents to another one
+
+DECLARE @inputFile string = "/InputFile.tsv";
+DECLARE @outputFile string = "/OutputFile.tsv";
+
+@GetFromFile = TestingUsqlDb.dbo.GetFromFile(@inputFile);
+
+@GetFromFileData = SELECT FirstColumn, SecondColumn
+                   FROM @GetFromFile AS p;
+
+OUTPUT @GetFromFileData TO @outputFile USING Outputters.Tsv(quoting: false);
