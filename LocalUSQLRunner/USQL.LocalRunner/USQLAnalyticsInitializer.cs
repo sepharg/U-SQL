@@ -95,7 +95,7 @@ namespace USQL.LocalRunner
 
         private string CombineScriptsAsOne(params string[] scriptsPaths)
         {
-            var mergedFilePath = Path.Combine(_usqlAnalyticsJobRunner.USQLAnalyticsConfiguration.USQLWorkDir, $"{string.Join("_", (scriptsPaths.Select(Path.GetFileNameWithoutExtension).ToList()))}_mergedScript.usql");
+            var mergedFilePath = Path.Combine(_usqlAnalyticsJobRunner.USQLAnalyticsConfiguration.USQLWorkDir, "mergedScript.usql");
 
             var stringBuilder = new StringBuilder();
             foreach (var scriptPath in scriptsPaths)
